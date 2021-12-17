@@ -12,5 +12,15 @@
   text-align: center;
   color: black;
   font-size: 15px;
-
+}
+.page1services{
+  background-image: url(/assets/backgrounds/s_image.jpg);
+text-align: center;
+color: white;
+font-size: 15px;
+background-size: cover;
+background-repeat: no-repeat;
+height: 45vh;
+width: 100%;
+padding-top: 85px;
 }

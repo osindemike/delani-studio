@@ -6,6 +6,6 @@ Project description : This is a webpage for Delani Studios that shows what Delan
 
 Project setup instructions : Languages used in the build were html and javascript/jQuery with css used for the additional styling.
 
-link to live site on GitHub Pages : 
+link to live site on GitHub Pages : https://osindemike.github.io/delani-studio/
 
 copyright and license information : Michael Osinde, 2021

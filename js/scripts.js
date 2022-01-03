@@ -72,3 +72,8 @@ $(document).ready(function(){
           $("#slide8").hide();
   });
   });
+  // $("p").hover(function(){
+  // $(this).css("background-color", "yellow");
+  // }, function(){
+  // $(this).css("background-color", "pink");
+  // });

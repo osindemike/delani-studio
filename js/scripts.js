@@ -72,8 +72,17 @@ $(document).ready(function(){
           $("#slide8").hide();
   });
   });
-  // $("p").hover(function(){
-  // $(this).css("background-color", "yellow");
-  // }, function(){
-  // $(this).css("background-color", "pink");
-  // });
+  $(document).ready(function(){
+    $("form").submit(function (event) {
+  var userName = $("#user1").val();
+  var userEmail = $("#user2").val();
+  var message = $("#user3").val();
+  if (userName == "" || userEmail == "" || message == "") {
+    alert("Kindly enter required fields");
+  }
+  else {
+    alert("Thank you " + userName + " for reaching out to us.");
+  }
+  event.preventDefault();
+  });
+  });

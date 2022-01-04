@@ -51,30 +51,10 @@ footer{
   text-align: center;
   padding: 25px;
 }
-#workone{
+#workone, #worktwo, #workthree, #workfour, #workfive, #worksix, #workseven, #workeight{
   cursor: pointer;
 }
-#worktwo{
-  cursor: pointer;
-}
-#workthree{
-  cursor: pointer;
-}
-#workfour{
-  cursor: pointer;
-}
-#workfive{
-  cursor: pointer;
-}
-#worksix{
-  cursor: pointer;
-}
-#workseven{
-  cursor: pointer;
-}
-#workeight{
-  cursor: pointer;
-}
+
 #slide1, #slide2, #slide3, #slide4, #slide5, #slide6, #slide7, #slide8{
   position: absolute;
   color: black;
@@ -110,4 +90,10 @@ footer{
 .form-control{
   margin-left: 40%;
   align-items: center;
+}
+#user3{
+  margin-left: 250px;
+}
+#submit{
+  margin-left: 100%;
 }
